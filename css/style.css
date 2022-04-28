@@ -1,0 +1,37 @@
+/* Created by: MariaG
+* Created on: April 25, 2022
+* This CSS file defines the style for index.html
+* ICS2O-Unit3-04-HTML-FahrenheitCelsius
+*/
+
+body {
+  width: 80%;
+  margin: 5% 10%;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  color: white;
+  background-color: #ffc265;
+  padding: 20px;
+  text-align: center;
+}
+
+#td-one {
+  width: 40%;
+}
+
+#td-two {
+  width: 60%;
+}
+
+img {
+  width: 100%;
+}
+
+#blue {
+  background-color: #baeeff;
+  margin-left: 30px;
+  padding: 20px;
+  margin-top: -130px;
+}
