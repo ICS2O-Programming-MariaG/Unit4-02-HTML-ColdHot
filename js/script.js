@@ -7,11 +7,12 @@
 "use strict"
 
 function tempSent() {
-  //declaring original variables
+  //declaring original variables & constant
   let temperature = parseFloat(document.getElementById("temp-input").value);
+  const TEMP_THRESHOLD = 15;
   let message = "";
   //setting different if/then scenarios
-  if (temperature >= 15) {
+  if (temperature >= TEMP_THRESHOLD) {
     message = "It is relatively hot out! You probably won't need a jacket, but you might want to wear sunscreen or a baseball cap.";
   }
   //else represents a temperature of less than 15 degrees
